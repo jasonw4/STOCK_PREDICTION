@@ -8,7 +8,7 @@ from plotly import graph_objs as go
 startDate = "2017-01-01"
 currDate = date.today().strftime("%Y-%m-%d")
 
-st.title("DOW JONES STOCK PREDICTORs")
+st.title("DOW JONES STOCK PREDICTOR")
 
 stockList = ("AXP", "AMGN", "AAPL", "BA", "CAT", "CSCO", "CVX", "GS", "HD", "HON", "IBM", "INTC", "JNJ", "KO", "JPM", "MCD", "MMM", "MRK", "MSFT", "NKE", 
             "PG", "TRV", "UNH", "CRM", "VZ", "V", "WBA", "WMT", "DIS", "D")
